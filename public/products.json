@@ -1,0 +1,244 @@
+[
+    {
+        "_id": "642c155b2c4774f05c36ee33",
+        "name": "HP Pavilion",
+        "description": "Whatever you're doing, wherever you're going, there's an HP laptop or 2-in-1 that can get you there",
+        "image": "https://i.ibb.co/qkxn50y/hp-15s-spruce-blue-02-500x500.jpg",
+        "category": "hp",
+        "price": 500
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7a",
+        "name": "Dell Vostro 14 3400",
+        "description": "Dell Vostro 14 3400 Laptop comes with the Intel Core i3-1115G4 Processor (6MB Cache, 3.0 GHz up to 4.10 GHz) and 4GB DDR4 2666MHz RAM.",
+        "image": "https://i.ibb.co/VBwnfjc/vostro-14-3400-black-front-500x500.jpg",
+        "category": "dell",
+        "price": 440
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee8a",
+        "name": "Asus P1511CMA Intel",
+        "description": "The Asus P1511CMA laptop comes equipped with an Intel Celeron Processor N4020 (4M Cache, 1.10 GHz up to 2.80 GHz) and 4GB DDR4 RAM.",
+        "image": "https://i.ibb.co/wdn4k79/p1511cma-slate-grey-01-500x500.webp",
+        "category": "asus",
+        "price": 420
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeb9",
+        "name": "HP 15.6 FHD Laptop",
+        "description": "Processor: Intel Celeron N4500 (4M Cache, 1.10 GHz up to 2.80 GHz)",
+        "image": "https://i.ibb.co/pLMdFr8/15s-fq2597tu-01-500x500.jpg",
+        "category": "hp",
+        "price": 425
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee7c",
+        "name": "HP 15s-eq2618AU Ryzen",
+        "description": "Processor: AMD Ryzen 3 5300U (4MB L3 Cache, 2.6GHz up to 3.8GHz),RAM: 8GB DDR4 (2 x 4GB), Storage: 512GB SSD",
+        "image": "https://i.ibb.co/qkxn50y/hp-15s-spruce-blue-02-500x500.jpg",
+        "category": "hp",
+        "price": 610
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee88",
+        "name": "HP ProBook 455 G9 Ryzen",
+        "description": "The HP ProBook 455 G9 comes with AMD Ryzen 5 5625U Processor (16MB L3 Cache, 2.3GHz, up to 4.3GHz) with AMD Radeon Graphics.",
+        "image": "https://i.ibb.co/hBy09Zz/probook-455-g9-01-500x500.jpg",
+        "category": "hp",
+        "price": 850
+    },
+    
+    {
+        "_id": "642c155b2c4774f05c36ee8c",
+        "name": "Dell Latitude 5440",
+        "description": "The Dell Latitude 5440 Laptop is a powerful and versatile computing device designed for professionals and users seeking a balance",
+        "image": "https://i.ibb.co/tqHMmF8/latitude-5440-001-500x500.webp",
+        "category": "dell",
+        "price": 520
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee94",
+        "name": "HP Pavilion 14-dv1234TU",
+        "description": "The HP Pavilion 14-dv1234TU Laptop comes with Intel Core i5-1155G7 (8M Cache, 2.50 GHz up to 4.50 GHz) and it has 8 GB DDR4-3200 MHz RAM.",
+        "image": "https://i.ibb.co/1917xCX/pavilion-14-dv1234tu-01-500x500.jpg",
+        "category": "hp",
+        "price": 540
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee9e",
+        "name": "Dell XPS 15 9520",
+        "description": "Dell XPS 15 9520 laptop comes with Processor: Intel Core i9-12900HK (24M Cache, 3.80 GHz, up to 5.00 GHz)",
+        "image": "https://i.ibb.co/GkvCjpF/xps-15-9520-01-500x500.webp",
+        "category": "dell",
+        "price": 570
+    },
+    {
+        "_id": "642c155b2c4774f05c36eea6",
+        "name": "Asus Vivobook X515KA",
+        "description": "The Asus Vivobook X515KA Laptop comes with Intel Celeron N4500 Processor (4M Cache, 1.10 GHz up to 2.80 GHz) and 4GB DDR4 RAM.",
+        "image": "https://i.ibb.co/5L1tdh9/vivobook-x515ka-slate-grey-01-500x500.webp",
+        "category": "asus",
+        "price": 400
+    },
+    {
+        "_id": "642c155b2c4774f05c36eeaf",
+        "name": "Samsung Galaxy Book2",
+        "description": "The Samsung Galaxy Book2 Business Core i5 12th Gen 14 FHD Laptop is powered by an Intel Core i5-1240P Processor",
+        "image": "https://i.ibb.co/M7zcSZc/galaxy-book2-business-01-500x500.webp",
+        "category": "samsung",
+        "price": 660
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee89",
+        "name": "HP 15s-fq5486TU",
+        "description": "The HP 15s-fq5486TU Laptop comes with Intel Core i3-1215U Processor (10M Cache, up to 4.40 GHz) and 4 GB DDR4 RAM.",
+        "image": "https://i.ibb.co/v376LYM/15s-fq5786tu-01-500x500.jpg",
+        "category": "hp",
+        "price": 540
+    },
+    
+    {
+        "_id": "642c155b2c4774f05c36ee96",
+        "name": "Samsung Galaxy Book",
+        "description": "Samsung Galaxy Book Core i5 11th Gen 15.6 FHD Laptop",
+        "image": "https://i.ibb.co/CMMYNMX/galaxy-book-01-500x500.webp",
+        "category": "sumsung",
+        "price": 589
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee90",
+        "name": "Asus TUF Gaming A15",
+        "description": "The Asus TUF Gaming A15 FA506QM is a high-performance gaming laptop designed to deliver smooth and immersive gaming experiences.",
+        "image": "https://i.ibb.co/SRxBkmm/tuf-gaming-a15-fa506qm-01-500x500.webp",
+        "category": "asus",
+        "price": 1050
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee99",
+        "name": "ASUS VivoBook 15",
+        "description": "The ASUS VivoBook 15 X1500EA FHD Laptop comes with Intel Core i3-1115G4 Processor (6M Cache, 3.00 GHz up to 4.10 GHz)",
+        "image": "https://i.ibb.co/CbDkRJL/x1500ea-01-500x500.webp",
+        "category": "asus",
+        "price": 628
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee91",
+        "name": "Dell XPS 13 Plus",
+        "description": "The Dell XPS 13 Plus 9320 is a premium laptop designed for high-performance computing needs.",
+        "image": "https://i.ibb.co/f8xMJRg/xps-13-plus-9320-01-500x500.webp",
+        "category": "dell",
+        "price": 546
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee23",
+        "name": "Dell XPS 17 9720",
+        "description": "Dell XPS 17 9720 laptop comes with an Intel Core i7-12700H processor (24M Cache, 3.50 GHz up to 4.70 GHz).",
+        "image": "https://i.ibb.co/2ZtYHjT/xps-17-9720-01-500x500.webp",
+        "category": "dell",
+        "price": 390
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee45",
+        "name": "ASUS VivoBook 16X",
+        "description": "The ASUS VivoBook 16X K3605ZF-MX041W Core i5 12th Gen 16, OLED Laptop is a durable and adaptable computer",
+        "image": "https://i.ibb.co/sgjH00W/k3605zf-mx041w-500x500.webp",
+        "category": "asus",
+        "price": 490
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee58",
+        "name": "Dell Latitude 5320",
+        "description": "The Dell Latitude 5320 Laptop comes with Intel Core i7-1185G7 (12M Cache, 3.00 GHz up to 4.80 GHz)",
+        "image": "https://i.ibb.co/v376LYM/15s-fq5786tu-01-500x500.jpg",
+        "category": "dell",
+        "price": 460
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee11",
+        "name": "HP 15s-fq5486TU",
+        "description": "The Dell Latitude 5320 Laptop comes with Intel Core i7-1185G7 (12M Cache, 3.00 GHz up to 4.80 GHz)",
+        "image": "https://i.ibb.co/v376LYM/15s-fq5786tu-01-500x500.jpg",
+        "category": "top-sell",
+        "price": 460
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee12",
+        "name": "Dell Latitude 5320",
+        "description": "The Dell Latitude 5320 Laptop comes with Intel Core i7-1185G7 (12M Cache, 3.00 GHz up to 4.80 GHz)",
+        "image": "https://i.ibb.co/r5MZnJc/latitude-5320-01-500x500.webp",
+        "category": "top-sell",
+        "price": 330
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee13",
+        "name": "ASUS VivoBook 16X",
+        "description": "The Dell Latitude 5320 Laptop comes with Intel Core i7-1185G7 (12M Cache, 3.00 GHz up to 4.80 GHz)",
+        "image": "https://i.ibb.co/7tf4ddx/vivobook-14-x415-silver-01-500x500.webp",
+        "category": "top-sell",
+        "price": 750
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee14",
+        "name": "Samsung Galaxy Book",
+        "description": "The Dell Latitude 5320 Laptop comes with Intel Core i7-1185G7 (12M Cache, 3.00 GHz up to 4.80 GHz)",
+        "image": "https://i.ibb.co/r5MZnJc/latitude-5320-01-500x500.webp",
+        "category": "top-sell",
+        "price": 444
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee15",
+        "name": "HP Probook 450 G6",
+        "description": "The Dell Latitude 5320 Laptop comes with Intel Core i7-1185G7 (12M Cache, 3.00 GHz up to 4.80 GHz)",
+        "image": "https://i.ibb.co/v376LYM/15s-fq5786tu-01-500x500.jpg",
+        "category": "top-sell",
+        "price": 460
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee28",
+        "name": "Dell Latitude 5320",
+        "description": "The Dell Latitude 5320 Laptop comes with Intel Core i7-1185G7 (12M Cache, 3.00 GHz up to 4.80 GHz)",
+        "image": "https://i.ibb.co/r5MZnJc/latitude-5320-01-500x500.webp",
+        "category": "top-sell",
+        "price": 430
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee81",
+        "name": "Asus VivoBook 14",
+        "description": "The Asus VivoBook 14 X415EA Laptop is powered by the latest Intel Core i3-1115G4 Processor ",
+        "image": "https://i.ibb.co/7tf4ddx/vivobook-14-x415-silver-01-500x500.webp",
+        "category": "asus",
+        "price": 470
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee17",
+        "name": "Mac ProBook 14",
+        "description": "The Asus VivoBook 14 X415EA Laptop is powered by the latest Intel Core i3-1115G4 Processor ",
+        "image": "https://i.ibb.co/7tf4ddx/vivobook-14-x415-silver-01-500x500.webp",
+        "category": "mac",
+        "price": 1170
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee18",
+        "name": "Mac VivoBook 14",
+        "description": "The Asus VivoBook 14 X415EA Laptop is powered by the latest Intel Core i3-1115G4 Processor ",
+        "image": "https://i.ibb.co/7tf4ddx/vivobook-14-x415-silver-01-500x500.webp",
+        "category": "mac",
+        "price": 970
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee19",
+        "name": "Mac usexr 14",
+        "description": "The Asus VivoBook 14 X415EA Laptop is powered by the latest Intel Core i3-1115G4 Processor ",
+        "image": "https://i.ibb.co/7tf4ddx/vivobook-14-x415-silver-01-500x500.webp",
+        "category": "mac",
+        "price": 870
+    },
+    {
+        "_id": "642c155b2c4774f05c36ee20",
+        "name": "Samsung VivoBook 14",
+        "description": "The Asus VivoBook 14 X415EA Laptop is powered by the latest Intel Core i3-1115G4 Processor ",
+        "image": "https://i.ibb.co/7tf4ddx/vivobook-14-x415-silver-01-500x500.webp",
+        "category": "samsung",
+        "price": 670
+    }
+]
