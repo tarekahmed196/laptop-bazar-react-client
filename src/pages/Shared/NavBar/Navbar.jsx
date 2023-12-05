@@ -1,10 +1,15 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
+import { FaShoppingCart } from "react-icons/fa";
+import useCart from "../../../hooks/useCart";
+import useAdmin from "../../../hooks/useAdmin";
 
 
 const NavBar = () => {
   const {user, logOut} = useContext(AuthContext)
+  const [cart] = useCart()
+  const [isAdmin] = useAdmin()
 
   const handleLogOut =()=>{
       logOut()
@@ -25,8 +30,20 @@ const NavBar = () => {
           <li>
             <a><Link to="/order/hp">Order Laptop</Link> </a>
           </li>
+          { isAdmin? <li>
+            <a><Link to="/dashboard/adminhome">Dashboard</Link> </a>
+          </li>:
           <li>
-            <a><Link to="/secret">Secret</Link> </a>
+          <a><Link to="/dashboard/userhome">Dashboard</Link> </a>
+        </li>
+          }
+          <li>
+            <a><Link to="/dashboard/mycart">
+            <button className="btn btn-sm">
+                <FaShoppingCart></FaShoppingCart>
+                <div className="badge badge-secondary">+{cart?.length || 0}</div>
+                </button>
+            </Link> </a>
           </li>
           
           {
@@ -40,7 +57,7 @@ const NavBar = () => {
           
     </>
   return (
-    <div className="navbar max-w-screen-xl fixed z-10 bg-black text-white opacity-50"> 
+    <div className=" navbar max-w-screen-xl fixed z-10 bg-black text-white opacity-40 "> 
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -63,7 +80,7 @@ const NavBar = () => {
             {navOptions}
           </ul>
         </div>
-        <Link to="/"><img className="w-1/2" src="/logo.png" alt="" /></Link>
+        <Link to="/"><img className="w-2/3" src="/logo.png" alt="" /></Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu bg-black menu-horizontal px-1">

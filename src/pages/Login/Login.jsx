@@ -4,10 +4,12 @@ import { AuthContext } from '../../providers/AuthProvider';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import Swal from 'sweetalert2'
+import SocialLogin from '../SocialLogin/SocialLogin';
+import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
     const [disabled, setDisabled] = useState(true);
-    const { signIn } = useContext(AuthContext);
+    const { signIn } = useAuth()
     const navigate = useNavigate();
     const location = useLocation();
 
@@ -90,6 +92,7 @@ const Login = () => {
                             </div>
                         </form>
                         <p className='text-center'><small>New Here? <Link to="/signup"><span className='underline'>SignUp</span></Link> </small></p>
+                        <SocialLogin></SocialLogin>
                     </div>
                 </div>
             </div>
